@@ -1,149 +1,179 @@
 {
   "categories": [
     {
+      "id": 1,
       "name": "Iconic Symbols & Culture",
       "description": "Distinctive Dutch cultural icons and symbols, including windmills, tulips, cycling culture, and contributions to art and history."
     },
     {
+      "id": 2,
       "name": "Food & Drink",
       "description": "Traditional and popular Dutch cuisine, featuring both savory dishes and sweet treats, along with local beverages."
     },
     {
+      "id": 3,
       "name": "Everyday Life & Habits",
       "description": "Common Dutch customs, lifestyle patterns, and cultural behaviors that define daily life in the Netherlands."
     },
     {
+      "id": 4,
       "name": "Inventions",
       "description": "Notable scientific and technological contributions made by the Dutch to the world."
     }
   ],
   "things": [
     {
+      "id": 1,
       "name": "Windmills, Tulips & Canals",
       "description": "Quintessential Dutch landscapes and history.",
       "category": "Iconic Symbols & Culture"
     },
     {
+      "id": 2,
       "name": "Cycling",
       "description": "A primary mode of transport, with bike paths everywhere.",
       "category": "Iconic Symbols & Culture"
     },
     {
+      "id": 3,
       "name": "Wooden Shoes (Klompen)",
       "description": "Traditional footwear, often souvenirs.",
       "category": "Iconic Symbols & Culture"
     },
     {
+      "id": 4,
       "name": "Dutch Masters Art",
       "description": "Famous painters like Rembrandt and Vermeer.",
       "category": "Iconic Symbols & Culture"
     },
     {
+      "id": 5,
       "name": "Orange (Oranje)",
       "description": "The national color, linked to the Royal Family.",
       "category": "Iconic Symbols & Culture"
     },
     {
+      "id": 6,
       "name": "Gezelligheid",
       "description": "A cozy, convivial atmosphere (hard to translate directly).",
       "category": "Iconic Symbols & Culture"
     },
     {
+      "id": 7,
       "name": "Stroopwafel",
       "description": "Thin waffles with caramel syrup.",
       "category": "Food & Drink"
     },
     {
+      "id": 8,
       "name": "Gouda & Edam Cheese",
       "description": "Famous dairy products, often eaten with bread.",
       "category": "Food & Drink"
     },
     {
+      "id": 9,
       "name": "Bitterballen & Kroketten",
       "description": "Deep-fried, savory meat-filled snacks.",
       "category": "Food & Drink"
     },
     {
+      "id": 10,
       "name": "Stamppot",
       "description": "Mashed potatoes with vegetables (kale, carrots).",
       "category": "Food & Drink"
     },
     {
+      "id": 11,
       "name": "Erwtensoep (Snert)",
       "description": "Thick split pea soup.",
       "category": "Food & Drink"
     },
     {
+      "id": 12,
       "name": "Haring (Herring)",
       "description": "Raw pickled herring with onions.",
       "category": "Food & Drink"
     },
     {
+      "id": 13,
       "name": "Hagelslag",
       "description": "Chocolate sprinkles for breakfast on bread.",
       "category": "Food & Drink"
     },
     {
+      "id": 14,
       "name": "Poffertjes",
       "description": "Mini fluffy pancakes.",
       "category": "Food & Drink"
     },
     {
+      "id": 15,
       "name": "Oliebollen",
       "description": "Dutch doughnuts, especially around New Year.",
       "category": "Food & Drink"
     },
     {
+      "id": 16,
       "name": "Jenever",
       "description": "Traditional Dutch gin.",
       "category": "Food & Drink"
     },
     {
+      "id": 17,
       "name": "Drop (Licorice)",
       "description": "A very popular, strong-flavored candy.",
       "category": "Food & Drink"
     },
     {
+      "id": 18,
       "name": "Complaining about the Weather",
       "description": "A national pastime.",
       "category": "Everyday Life & Habits"
     },
     {
+      "id": 19,
       "name": "Early Dinners",
       "description": "Eating between 5-7 PM.",
       "category": "Everyday Life & Habits"
     },
     {
+      "id": 20,
       "name": "AVG Dinner",
       "description": "A simple meal of Aardappelen (potatoes), Vlees (meat), Groenten (vegetables).",
       "category": "Everyday Life & Habits"
     },
     {
+      "id": 21,
       "name": "Doe normaal",
       "description": "Act normal - a cultural emphasis on modesty and common sense.",
       "category": "Everyday Life & Habits"
     },
     {
+      "id": 22,
       "name": "Indonesian Influence",
       "description": "Dishes like rijsttafel (rice table) are popular due to history.",
       "category": "Everyday Life & Habits"
     },
     {
+      "id": 23,
       "name": "Wi-Fi & CD/DVD Technology",
       "description": "Significant technological contributions.",
       "category": "Inventions"
     },
     {
+      "id": 24,
       "name": "Microscope & Telescope",
       "description": "Key scientific instruments.",
       "category": "Inventions"
     },
     {
+      "id": 25,
       "name": "Orange Carrots",
       "description": "The Dutch cultivated them to be orange.",
       "category": "Inventions"
     },
     {
+      "id": 26,
       "name": "Stock Market",
       "description": "Originated in the Netherlands.",
       "category": "Inventions"
