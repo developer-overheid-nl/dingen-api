@@ -1,0 +1,416 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Dutch Things API",
+    "description": "A REST API for managing Dutch cultural items and categories using JSON Server",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Development server"
+    }
+  ],
+  "paths": {
+    "/categories": {
+      "get": {
+        "summary": "List all categories",
+        "description": "Retrieve a list of all Dutch culture categories",
+        "operationId": "getCategories",
+        "tags": ["Categories"],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Category"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new category",
+        "description": "Create a new Dutch culture category",
+        "operationId": "createCategory",
+        "tags": ["Categories"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Category created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Category"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/categories/{id}": {
+      "get": {
+        "summary": "Get a category by ID",
+        "description": "Retrieve a specific category by its ID",
+        "operationId": "getCategoryById",
+        "tags": ["Categories"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Category ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Category found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Category"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Category not found"
+          }
+        }
+      },
+      "patch": {
+        "summary": "Update a category",
+        "description": "Update a specific category by its ID",
+        "operationId": "updateCategory",
+        "tags": ["Categories"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Category ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Category updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Category"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Category not found"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a category",
+        "description": "Delete a specific category by its ID",
+        "operationId": "deleteCategory",
+        "tags": ["Categories"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Category ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Category deleted successfully"
+          },
+          "404": {
+            "description": "Category not found"
+          }
+        }
+      }
+    },
+    "/things": {
+      "get": {
+        "summary": "List all things",
+        "description": "Retrieve a list of all Dutch cultural items",
+        "operationId": "getThings",
+        "tags": ["Things"],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by category name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Thing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new thing",
+        "description": "Create a new Dutch cultural item",
+        "operationId": "createThing",
+        "tags": ["Things"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThingInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Thing created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Thing"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/things/{id}": {
+      "get": {
+        "summary": "Get a thing by ID",
+        "description": "Retrieve a specific cultural item by its ID",
+        "operationId": "getThingById",
+        "tags": ["Things"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Thing ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Thing found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Thing"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Thing not found"
+          }
+        }
+      },
+      "patch": {
+        "summary": "Update a thing",
+        "description": "Update a specific cultural item by its ID",
+        "operationId": "updateThing",
+        "tags": ["Things"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Thing ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThingInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Thing updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Thing"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Thing not found"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a thing",
+        "description": "Delete a specific cultural item by its ID",
+        "operationId": "deleteThing",
+        "tags": ["Things"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Thing ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Thing deleted successfully"
+          },
+          "404": {
+            "description": "Thing not found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Category": {
+        "type": "object",
+        "required": ["id", "name", "description"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique identifier for the category"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the category"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the category"
+          }
+        }
+      },
+      "CategoryInput": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the category"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the category"
+          }
+        }
+      },
+      "Thing": {
+        "type": "object",
+        "required": ["id", "name", "description", "category"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique identifier for the thing"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the cultural item"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the cultural item"
+          },
+          "category": {
+            "type": "string",
+            "description": "Category the item belongs to"
+          }
+        }
+      },
+      "ThingInput": {
+        "type": "object",
+        "required": ["name", "description", "category"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the cultural item"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the cultural item"
+          },
+          "category": {
+            "type": "string",
+            "description": "Category the item belongs to"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Categories",
+      "description": "Operations for managing categories"
+    },
+    {
+      "name": "Things",
+      "description": "Operations for managing Dutch cultural items"
+    }
+  ]
+}
