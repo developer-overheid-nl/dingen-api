@@ -18,6 +18,77 @@
         "description": "Retrieve a list of all Dutch culture categories",
         "operationId": "getCategories",
         "tags": ["Categories"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Filter by category ID"
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by category name"
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by description"
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Full-text search across all fields"
+          },
+          {
+            "name": "_page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 1
+            },
+            "description": "Page number for pagination (default: 1)"
+          },
+          {
+            "name": "_limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 10
+            },
+            "description": "Number of items per page (default: 10)"
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["id", "name", "description"]
+            },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "_order",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["asc", "desc"],
+              "default": "asc"
+            },
+            "description": "Sort order: 'asc' for ascending or 'desc' for descending (default: asc)"
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -172,12 +243,89 @@
         "tags": ["Things"],
         "parameters": [
           {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Filter by thing ID"
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by name"
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by description"
+          },
+          {
             "name": "category",
             "in": "query",
             "schema": {
               "type": "string"
             },
-            "description": "Filter by category name"
+            "description": "Filter by category"
+          },
+          {
+            "name": "wikipedia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by Wikipedia URL"
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Full-text search across all fields"
+          },
+          {
+            "name": "_page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 1
+            },
+            "description": "Page number for pagination (default: 1)"
+          },
+          {
+            "name": "_limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 10
+            },
+            "description": "Number of items per page (default: 10)"
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["id", "name", "description", "category", "wikipedia"]
+            },
+            "description": "Field to sort by"
+          },
+          {
+            "name": "_order",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["asc", "desc"],
+              "default": "asc"
+            },
+            "description": "Sort order: 'asc' for ascending or 'desc' for descending (default: asc)"
           }
         ],
         "responses": {
