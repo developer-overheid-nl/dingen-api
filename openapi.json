@@ -3,12 +3,12 @@
   "info": {
     "title": "Dutch Things API",
     "description": "A REST API for managing Dutch cultural items and categories using JSON Server",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "servers": [
     {
-      "url": "http://localhost:3000",
-      "description": "Development server"
+      "url": "https://my-json-server.typicode.com/developer-overheid-nl/dingen-api/",
+      "description": "Example server"
     }
   ],
   "paths": {
@@ -381,6 +381,13 @@
             "type": "string",
             "description": "Category the item belongs to"
           }
+          ,
+          "wikipedia": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true,
+            "description": "Optional Wikipedia URL for the item (or null)"
+          }
         }
       },
       "ThingInput": {
@@ -398,6 +405,13 @@
           "category": {
             "type": "string",
             "description": "Category the item belongs to"
+          }
+          ,
+          "wikipedia": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true,
+            "description": "Optional Wikipedia URL for the item (or null)"
           }
         }
       }

@@ -26,157 +26,183 @@
       "id": 1,
       "name": "Windmills, Tulips & Canals",
       "description": "Quintessential Dutch landscapes and history.",
-      "category": "Iconic Symbols & Culture"
+      "category": "Iconic Symbols & Culture",
+      "wikipedia": "https://en.wikipedia.org/wiki/Netherlands"
     },
     {
       "id": 2,
       "name": "Cycling",
       "description": "A primary mode of transport, with bike paths everywhere.",
-      "category": "Iconic Symbols & Culture"
+      "category": "Iconic Symbols & Culture",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cycling_in_the_Netherlands"
     },
     {
       "id": 3,
       "name": "Wooden Shoes (Klompen)",
       "description": "Traditional footwear, often souvenirs.",
-      "category": "Iconic Symbols & Culture"
+      "category": "Iconic Symbols & Culture",
+      "wikipedia": "https://en.wikipedia.org/wiki/Clog_(shoe)"
     },
     {
       "id": 4,
       "name": "Dutch Masters Art",
       "description": "Famous painters like Rembrandt and Vermeer.",
-      "category": "Iconic Symbols & Culture"
+      "category": "Iconic Symbols & Culture",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dutch_Golden_Age_painting"
     },
     {
       "id": 5,
       "name": "Orange (Oranje)",
       "description": "The national color, linked to the Royal Family.",
-      "category": "Iconic Symbols & Culture"
+      "category": "Iconic Symbols & Culture",
+      "wikipedia": "https://en.wikipedia.org/wiki/House_of_Orange-Nassau"
     },
     {
       "id": 6,
       "name": "Gezelligheid",
       "description": "A cozy, convivial atmosphere (hard to translate directly).",
-      "category": "Iconic Symbols & Culture"
+      "category": "Iconic Symbols & Culture",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gezelligheid"
     },
     {
       "id": 7,
       "name": "Stroopwafel",
       "description": "Thin waffles with caramel syrup.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stroopwafel"
     },
     {
       "id": 8,
       "name": "Gouda & Edam Cheese",
       "description": "Famous dairy products, often eaten with bread.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gouda_cheese"
     },
     {
       "id": 9,
       "name": "Bitterballen & Kroketten",
       "description": "Deep-fried, savory meat-filled snacks.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bitterballen"
     },
     {
       "id": 10,
       "name": "Stamppot",
       "description": "Mashed potatoes with vegetables (kale, carrots).",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stamppot"
     },
     {
       "id": 11,
       "name": "Erwtensoep (Snert)",
       "description": "Thick split pea soup.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Erwtensoep"
     },
     {
       "id": 12,
       "name": "Haring (Herring)",
       "description": "Raw pickled herring with onions.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Herring"
     },
     {
       "id": 13,
       "name": "Hagelslag",
       "description": "Chocolate sprinkles for breakfast on bread.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hagelslag"
     },
     {
       "id": 14,
       "name": "Poffertjes",
       "description": "Mini fluffy pancakes.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Poffertjes"
     },
     {
       "id": 15,
       "name": "Oliebollen",
       "description": "Dutch doughnuts, especially around New Year.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Oliebollen"
     },
     {
       "id": 16,
       "name": "Jenever",
       "description": "Traditional Dutch gin.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jenever"
     },
     {
       "id": 17,
       "name": "Drop (Licorice)",
       "description": "A very popular, strong-flavored candy.",
-      "category": "Food & Drink"
+      "category": "Food & Drink",
+      "wikipedia": "https://en.wikipedia.org/wiki/Licorice"
     },
     {
       "id": 18,
       "name": "Complaining about the Weather",
       "description": "A national pastime.",
-      "category": "Everyday Life & Habits"
+      "category": "Everyday Life & Habits",
+      "wikipedia": "https://en.wikipedia.org/wiki/Weather"
     },
     {
       "id": 19,
       "name": "Early Dinners",
       "description": "Eating between 5-7 PM.",
-      "category": "Everyday Life & Habits"
+      "category": "Everyday Life & Habits",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dinner"
     },
     {
       "id": 20,
       "name": "AVG Dinner",
       "description": "A simple meal of Aardappelen (potatoes), Vlees (meat), Groenten (vegetables).",
-      "category": "Everyday Life & Habits"
+      "category": "Everyday Life & Habits",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dutch_cuisine"
     },
     {
       "id": 21,
       "name": "Doe normaal",
       "description": "Act normal - a cultural emphasis on modesty and common sense.",
-      "category": "Everyday Life & Habits"
+      "category": "Everyday Life & Habits",
+      "wikipedia": "https://en.wikipedia.org/wiki/Culture_of_the_Netherlands"
     },
     {
       "id": 22,
       "name": "Indonesian Influence",
       "description": "Dishes like rijsttafel (rice table) are popular due to history.",
-      "category": "Everyday Life & Habits"
+      "category": "Everyday Life & Habits",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rijsttafel"
     },
     {
       "id": 23,
       "name": "Wi-Fi & CD/DVD Technology",
       "description": "Significant technological contributions.",
-      "category": "Inventions"
+      "category": "Inventions",
+      "wikipedia": "https://en.wikipedia.org/wiki/Wi-Fi"
     },
     {
       "id": 24,
       "name": "Microscope & Telescope",
       "description": "Key scientific instruments.",
-      "category": "Inventions"
+      "category": "Inventions",
+      "wikipedia": "https://en.wikipedia.org/wiki/Microscope"
     },
     {
       "id": 25,
       "name": "Orange Carrots",
       "description": "The Dutch cultivated them to be orange.",
-      "category": "Inventions"
+      "category": "Inventions",
+      "wikipedia": "https://en.wikipedia.org/wiki/Carrot"
     },
     {
       "id": 26,
       "name": "Stock Market",
       "description": "Originated in the Netherlands.",
-      "category": "Inventions"
+      "category": "Inventions",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stock_market"
     }
   ]
 }
