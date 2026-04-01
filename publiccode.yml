@@ -41,10 +41,12 @@ intendedAudience:
 
 localisation:
   availableLanguages:
-    - nl
+    - en
   localisationReady: false
 
 maintenance:
   type: internal
   contacts:
     - name: developer.overheid.nl
+      email: developer.overheid@geonovum.nl
+      affiliation: Geonovum
