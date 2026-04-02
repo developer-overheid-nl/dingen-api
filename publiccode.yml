@@ -1,0 +1,52 @@
+publiccodeYmlVersion: "0.5"
+
+name: Dingen API
+url: https://github.com/developer-overheid-nl/dingen-api
+landingURL: https://my-json-server.typicode.com/developer-overheid-nl/dingen-api/
+softwareType: standalone/backend
+
+platforms:
+  - web
+
+developmentStatus: development
+
+description:
+  nl:
+    shortDescription: >-
+      Een JSON-database met typisch Nederlandse dingen, te gebruiken als API
+      voor voorbeeldsites.
+    longDescription: |
+      De Dingen API is een REST API waarmee typisch Nederlandse culturele items
+      en categorieën kunnen worden opgehaald en beheerd. De API maakt gebruik
+      van JSON Server en biedt ondersteuning voor filteren op naam, beschrijving
+      en ID, paginering en sortering van resultaten, en volledige tekst
+      zoekfunctionaliteit. De API is bedoeld als voorbeeldimplementatie en kan
+      worden gebruikt als basis voor demonstraties en voorbeeldsites van
+      overheidsapplicaties.
+    features:
+      - Opvragen van Nederlandse culturele items en categorieën
+      - Filteren op naam, beschrijving en ID
+      - Paginering en sortering van resultaten
+      - Volledige tekst zoekfunctionaliteit
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Geonovum
+
+intendedAudience:
+  countries:
+    - NL
+  scope:
+    - government
+
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: false
+
+maintenance:
+  type: internal
+  contacts:
+    - name: developer.overheid.nl
+      email: developer.overheid@geonovum.nl
+      affiliation: Geonovum
