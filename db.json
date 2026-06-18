@@ -33,11 +33,9 @@
       "category": "Iconic Symbols & Culture",
       "wikipedia": "https://en.wikipedia.org/wiki/Netherlands",
       "tags": [
-        "landscape",
+        "nature",
         "history",
-        "icon",
-        "tourism",
-        "nature"
+        "icon"
       ]
     },
     {
@@ -49,8 +47,7 @@
       "tags": [
         "transport",
         "lifestyle",
-        "infrastructure",
-        "sustainability"
+        "infrastructure"
       ]
     },
     {
@@ -62,7 +59,6 @@
       "tags": [
         "clothing",
         "tradition",
-        "souvenir",
         "icon"
       ]
     },
@@ -75,8 +71,6 @@
       "tags": [
         "art",
         "history",
-        "Golden Age",
-        "painting",
         "icon"
       ]
     },
@@ -89,7 +83,6 @@
       "tags": [
         "national identity",
         "royalty",
-        "color",
         "icon"
       ]
     },
@@ -101,9 +94,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Gezelligheid",
       "tags": [
         "language",
-        "social life",
-        "lifestyle",
-        "untranslatable"
+        "lifestyle"
       ]
     },
     {
@@ -114,9 +105,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Stroopwafel",
       "tags": [
         "snack",
-        "sweet",
-        "baked goods",
-        "souvenir"
+        "sweet"
       ]
     },
     {
@@ -128,8 +117,7 @@
       "tags": [
         "dairy",
         "cheese",
-        "export",
-        "breakfast"
+        "food"
       ]
     },
     {
@@ -140,9 +128,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Bitterballen",
       "tags": [
         "snack",
-        "savory",
-        "fried food",
-        "bar food"
+        "savory"
       ]
     },
     {
@@ -152,10 +138,8 @@
       "category": "Food & Drink",
       "wikipedia": "https://en.wikipedia.org/wiki/Stamppot",
       "tags": [
-        "main dish",
-        "comfort food",
-        "winter",
-        "potatoes"
+        "food",
+        "winter"
       ]
     },
     {
@@ -166,9 +150,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Erwtensoep",
       "tags": [
         "soup",
-        "comfort food",
-        "winter",
-        "main dish"
+        "food"
       ]
     },
     {
@@ -179,10 +161,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Herring",
       "tags": [
         "seafood",
-        "street food",
-        "raw fish",
-        "snack",
-        "acquired taste"
+        "snack"
       ]
     },
     {
@@ -192,10 +171,8 @@
       "category": "Food & Drink",
       "wikipedia": "https://en.wikipedia.org/wiki/Hagelslag",
       "tags": [
-        "breakfast",
-        "chocolate",
-        "sweet",
-        "bread topping"
+        "food",
+        "sweet"
       ]
     },
     {
@@ -205,10 +182,8 @@
       "category": "Food & Drink",
       "wikipedia": "https://en.wikipedia.org/wiki/Poffertjes",
       "tags": [
-        "dessert",
         "sweet",
-        "street food",
-        "pancakes"
+        "snack"
       ]
     },
     {
@@ -218,10 +193,7 @@
       "category": "Food & Drink",
       "wikipedia": "https://en.wikipedia.org/wiki/Oliebollen",
       "tags": [
-        "dessert",
         "sweet",
-        "fried food",
-        "New Year",
         "seasonal"
       ]
     },
@@ -233,9 +205,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Jenever",
       "tags": [
         "alcohol",
-        "spirits",
-        "tradition",
-        "drink"
+        "tradition"
       ]
     },
     {
@@ -247,8 +217,7 @@
       "tags": [
         "candy",
         "sweet",
-        "snack",
-        "acquired taste"
+        "snack"
       ]
     },
     {
@@ -259,8 +228,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Weather",
       "tags": [
         "habit",
-        "humor",
-        "small talk",
         "climate"
       ]
     },
@@ -271,9 +238,7 @@
       "category": "Everyday Life & Habits",
       "wikipedia": "https://en.wikipedia.org/wiki/Dinner",
       "tags": [
-        "habit",
-        "mealtime",
-        "routine"
+        "habit"
       ]
     },
     {
@@ -283,10 +248,8 @@
       "category": "Everyday Life & Habits",
       "wikipedia": "https://en.wikipedia.org/wiki/Dutch_cuisine",
       "tags": [
-        "main dish",
-        "routine",
-        "home cooking",
-        "potatoes"
+        "food",
+        "routine"
       ]
     },
     {
@@ -297,9 +260,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Culture_of_the_Netherlands",
       "tags": [
         "values",
-        "mentality",
-        "language",
-        "social norm"
+        "mentality"
       ]
     },
     {
@@ -311,7 +272,6 @@
       "tags": [
         "colonial history",
         "cuisine",
-        "fusion",
         "Indonesia"
       ]
     },
@@ -324,7 +284,6 @@
       "tags": [
         "technology",
         "innovation",
-        "electronics",
         "science"
       ]
     },
@@ -337,8 +296,7 @@
       "tags": [
         "science",
         "innovation",
-        "history",
-        "instruments"
+        "history"
       ]
     },
     {
@@ -349,7 +307,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Carrot",
       "tags": [
         "agriculture",
-        "food history",
         "innovation",
         "vegetable"
       ]
@@ -363,73 +320,47 @@
       "tags": [
         "economics",
         "finance",
-        "history",
         "innovation"
       ]
     }
   ],
   "tags": {
-    "acquired taste": 2,
     "agriculture": 1,
     "alcohol": 1,
     "art": 1,
-    "bar food": 1,
-    "baked goods": 1,
-    "breakfast": 2,
-    "bread topping": 1,
     "candy": 1,
     "cheese": 1,
     "climate": 1,
     "clothing": 1,
-    "color": 1,
     "colonial history": 1,
-    "comfort food": 2,
     "cuisine": 1,
     "dairy": 1,
-    "dessert": 2,
-    "drink": 1,
     "economics": 1,
-    "electronics": 1,
-    "export": 1,
-    "food history": 1,
-    "fusion": 1,
-    "fried food": 2,
-    "Golden Age": 1,
-    "habit": 2,
-    "home cooking": 1,
+    "finance": 1,
+    "food": 5,
+    "history": 3,
     "icon": 4,
     "Indonesia": 1,
     "infrastructure": 1,
     "innovation": 4,
-    "instruments": 1,
-    "language": 2,
+    "language": 1,
     "landscape": 1,
-    "main dish": 3,
-    "mealtime": 1,
     "mentality": 1,
-    "nature": 1,
     "national identity": 1,
-    "New Year": 1,
+    "nature": 1,
     "painting": 1,
     "potatoes": 2,
-    "raw fish": 1,
     "royalty": 1,
-    "routine": 2,
+    "routine": 1,
     "science": 2,
     "seasonal": 1,
-    "snack": 4,
-    "souvenir": 2,
-    "spirits": 1,
-    "street food": 2,
-    "sustainability": 1,
+    "snack": 5,
     "sweet": 5,
     "technology": 1,
-    "tourism": 1,
     "transport": 1,
     "tradition": 2,
-    "untranslatable": 1,
-    "values": 1,
     "vegetable": 1,
-    "winter": 2
+    "values": 1,
+    "winter": 1
   }
 }
