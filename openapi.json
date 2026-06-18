@@ -44,6 +44,14 @@
             "description": "Filter by description"
           },
           {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Filter by the number of items in the category"
+          },
+          {
             "name": "q",
             "in": "query",
             "schema": {
@@ -74,7 +82,7 @@
             "in": "query",
             "schema": {
               "type": "string",
-              "enum": ["id", "name", "description"]
+              "enum": ["id", "name", "description", "amount"]
             },
             "description": "Field to sort by"
           },
@@ -273,6 +281,14 @@
               "type": "string"
             },
             "description": "Filter by category"
+          },
+          {
+            "name": "tags",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by one or more tags"
           },
           {
             "name": "wikipedia",
@@ -492,6 +508,10 @@
           "description": {
             "type": "string",
             "description": "Detailed description of the category"
+          },
+          "amount": {
+            "type": "integer",
+            "description": "Number of items associated with this category"
           }
         }
       },
@@ -506,12 +526,16 @@
           "description": {
             "type": "string",
             "description": "Detailed description of the category"
+          },
+          "amount": {
+            "type": "integer",
+            "description": "Optional number of items in the category. If omitted, it may be computed automatically."
           }
         }
       },
       "Thing": {
         "type": "object",
-        "required": ["id", "name", "description", "category"],
+        "required": ["id", "name", "description", "category", "tags"],
         "properties": {
           "id": {
             "type": "integer",
@@ -528,8 +552,14 @@
           "category": {
             "type": "string",
             "description": "Category the item belongs to"
-          }
-          ,
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tags associated with the cultural item"
+          },
           "wikipedia": {
             "type": "string",
             "format": "uri",
@@ -540,7 +570,7 @@
       },
       "ThingInput": {
         "type": "object",
-        "required": ["name", "description", "category"],
+        "required": ["name", "description", "category", "tags"],
         "properties": {
           "name": {
             "type": "string",
@@ -553,8 +583,14 @@
           "category": {
             "type": "string",
             "description": "Category the item belongs to"
-          }
-          ,
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tags associated with the cultural item"
+          },
           "wikipedia": {
             "type": "string",
             "format": "uri",
